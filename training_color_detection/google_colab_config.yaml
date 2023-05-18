@@ -1,0 +1,10 @@
+
+path: '/content/gdrive/My Drive/color_detection' # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: valid/images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: green
+  1: red
+  2: yellow
